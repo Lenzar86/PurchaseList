@@ -12,6 +12,12 @@
     "version": "2.3.1.0"
   },
   {
+    "author": "Samboy063",
+    "name": "BetterLoading",
+    "steamId": "1999454301",
+    "version": "3.5.0.0"
+  },
+  {
     "author": "bradson",
     "name": "Fishery - Modding Library",
     "steamId": null,
@@ -72,10 +78,22 @@
     "version": null
   },
   {
+    "author": "Andreas Pardeike",
+    "name": "Achtung!",
+    "steamId": "730936602",
+    "version": "3.9.5.0"
+  },
+  {
     "author": "Andrew Raphael Lukasik",
     "name": "Allow Dead Animals",
     "steamId": "2403873031",
     "version": "1.0.0.0+1dc8fcf8241a873b812f073ed6ee07eb5dad83bf"
+  },
+  {
+    "author": "Chad",
+    "name": "Almostthere1.5",
+    "steamId": "3232229153",
+    "version": "1.0.0.0"
   },
   {
     "author": "Oskar Potocki, Smash Phil and Sarg Bjornson",
@@ -120,30 +138,6 @@
     "version": "1.0.0.0"
   },
   {
-    "author": "m00nl1ght",
-    "name": "Geological Landforms",
-    "steamId": "2773943594",
-    "version": "1.7.3+1b7d7cb57a0a1a5a74476cd6f0775fb8ee67d71c"
-  },
-  {
-    "author": "Zylle",
-    "name": "Map Designer",
-    "steamId": "2111424996",
-    "version": "1.0.0.0"
-  },
-  {
-    "author": "Uuugggg",
-    "name": "Replace Stuff",
-    "steamId": "1372003680",
-    "version": "1.1.0.0"
-  },
-  {
-    "author": "MO",
-    "name": "Ancient urban ruins",
-    "steamId": "3316062206",
-    "version": "1.0.0.0"
-  },
-  {
     "author": "cucumpear and Azrael",
     "name": "Animal Variety Coats",
     "steamId": null,
@@ -152,6 +146,12 @@
   {
     "author": "NECEROS and forked by Skelly",
     "name": "Balanced Eclipse and Solar Flare - Forked",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Falconne",
+    "name": "Better Workbench Management",
     "steamId": null,
     "version": null
   },
@@ -180,10 +180,10 @@
     "version": null
   },
   {
-    "author": "Fluffy",
-    "name": "Blueprints",
-    "steamId": "708455313",
-    "version": "2.17.133"
+    "author": "Localghost",
+    "name": "Blueprints - Forked",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "Updated by Ogliss",
@@ -214,6 +214,12 @@
     "name": "Colony Manager Fork",
     "steamId": "3262932412",
     "version": "1.5"
+  },
+  {
+    "author": "Georodin",
+    "name": "DDI - Deep Drill Indicator",
+    "steamId": "2566736688",
+    "version": "1.0.0.0"
   },
   {
     "author": "dracoix",
@@ -270,16 +276,22 @@
     "version": null
   },
   {
-    "author": "ThatHitmann",
-    "name": "Geneva Checklist",
-    "steamId": "3339044171",
-    "version": "1.0.0.0"
+    "author": "m00nl1ght",
+    "name": "Geological Landforms",
+    "steamId": "2773943594",
+    "version": "1.7.3+1b7d7cb57a0a1a5a74476cd6f0775fb8ee67d71c"
   },
   {
     "author": "Aelanna",
     "name": "Get Out Of My Chair!",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Xavior",
+    "name": "Glitter Tech",
+    "steamId": "2558099206",
+    "version": "1.0.0.0"
   },
   {
     "author": "Syrus",
@@ -310,6 +322,12 @@
     "name": "LightsOut",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Zylle",
+    "name": "Map Designer",
+    "steamId": "2111424996",
+    "version": "1.0.0.0"
   },
   {
     "author": "m00nl1ght",
@@ -444,10 +462,16 @@
     "version": null
   },
   {
-    "author": "Torann",
-    "name": "Rim War",
-    "steamId": "2222935097",
-    "version": "0.9.9.1"
+    "author": "kearril",
+    "name": "Repair Cabin",
+    "steamId": "3372291111",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Uuugggg",
+    "name": "Replace Stuff",
+    "steamId": "1372003680",
+    "version": "1.1.0.0"
   },
   {
     "author": "aRandomKiwi",
@@ -472,6 +496,12 @@
     "name": "Search and Destroy (Unofficial Update)",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "kathanon",
+    "name": "Show Weapon Tallies",
+    "steamId": "2901520677",
+    "version": "1.0.0.0"
   },
   {
     "author": "PeteTimesSix",
@@ -506,6 +536,12 @@
   {
     "author": "1trickPwnyta",
     "name": "Stranger in black",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "Udon",
+    "name": "Super Size Bed!",
     "steamId": null,
     "version": null
   },
@@ -579,7 +615,7 @@
     "author": "Mlie",
     "name": "Use This Instead",
     "steamId": "3396308787",
-    "version": "1.5.51"
+    "version": "1.5.60"
   },
   {
     "author": "Oskar Potocki, Trunken and Sarg",
@@ -730,6 +766,12 @@
     "name": "Dubs Rimatomics",
     "steamId": "1127530465",
     "version": "1.7.7368"
+  },
+  {
+    "author": "Vendan, Kiame Vivacity and \"Just Harry\"",
+    "name": "RimFridge: Now with Shelves!",
+    "steamId": "2898411376",
+    "version": "1.0.0+4ff143b63d2ab5f55e26fd67374dfa203a73c0d2"
   },
   {
     "author": "Little White Mouse",
