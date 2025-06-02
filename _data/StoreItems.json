@@ -392,13 +392,13 @@
 	},
 	{
 		"abr": "shelf",
-		"price": 70,
+		"price": 203,
 		"category": "Furniture",
 		"defname": "Shelf"
 	},
 	{
 		"abr": "smallshelf",
-		"price": 35,
+		"price": 102,
 		"category": "Furniture",
 		"defname": "ShelfSmall"
 	},
@@ -878,7 +878,7 @@
 	},
 	{
 		"abr": "tortoiseegg(fert.)",
-		"price": -10,
+		"price": 38,
 		"category": "Eggs (fert.)",
 		"defname": "EggTortoiseFertilized"
 	},
@@ -896,13 +896,13 @@
 	},
 	{
 		"abr": "ostrichegg(fert.)",
-		"price": -10,
+		"price": 38,
 		"category": "Eggs (fert.)",
 		"defname": "EggOstrichFertilized"
 	},
 	{
 		"abr": "turkeyegg(fert.)",
-		"price": -10,
+		"price": 18,
 		"category": "Eggs (fert.)",
 		"defname": "EggTurkeyFertilized"
 	},
@@ -2720,13 +2720,13 @@
 	},
 	{
 		"abr": "slabbed",
-		"price": 102,
+		"price": 187,
 		"category": "Furniture",
 		"defname": "SlabBed"
 	},
 	{
 		"abr": "slabdoublebed",
-		"price": 288,
+		"price": 442,
 		"category": "Furniture",
 		"defname": "SlabDoubleBed"
 	},
@@ -3926,19 +3926,19 @@
 	},
 	{
 		"abr": "centauroidwithfourarms",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_CentaurFourArm"
 	},
 	{
 		"abr": "centauroidwithfourarmsandwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_CentaurFourArmWinged"
 	},
 	{
 		"abr": "centauroidwithwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_CentaurWinged"
 	},
@@ -4076,13 +4076,13 @@
 	},
 	{
 		"abr": "four-armedhumanlikewithatailandwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_FourArmTailedWinged"
 	},
 	{
 		"abr": "four-armedhumanlikewithwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_FourArmWinged"
 	},
@@ -4238,115 +4238,115 @@
 	},
 	{
 		"abr": "mechwithatail",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaTailed"
 	},
 	{
 		"abr": "mechwithatailandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaTailedWinged"
 	},
 	{
 		"abr": "mechwithfourarms",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaFourArm"
 	},
 	{
 		"abr": "mechwithfourarmsandatail",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaFourArmTailed"
 	},
 	{
 		"abr": "mechwithfourarmsandatailandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaFourArmTailedWinged"
 	},
 	{
 		"abr": "mechwithfourarmsandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaFourArmWinged"
 	},
 	{
 		"abr": "mechwithfourlegs",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaCentaur"
 	},
 	{
 		"abr": "mechwithfourlegsandfourarms",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaCentaurFourArm"
 	},
 	{
 		"abr": "mechwithfourlegsandfourarmsandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaCentaurFourArmWinged"
 	},
 	{
 		"abr": "mechwithfourlegsandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaCentaurWinged"
 	},
 	{
 		"abr": "mechwithserpent-liketail",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSnek"
 	},
 	{
 		"abr": "mechwithserpent-liketailandfourarms",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSnekFourArm"
 	},
 	{
 		"abr": "mechwithserpent-liketailandfourarmsandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSnekFourArmWinged"
 	},
 	{
 		"abr": "mechwithserpent-liketailandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSnekWinged"
 	},
 	{
 		"abr": "mechwithspider-likeabdomen",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSpooder"
 	},
 	{
 		"abr": "mechwithspider-likeabdomenandfourarms",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSpooderFourArm"
 	},
 	{
 		"abr": "mechwithspider-likeabdomenandfourarmsandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSpooderFourArmWinged"
 	},
 	{
 		"abr": "mechwithspider-likeabdomenandwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaSpooderWinged"
 	},
 	{
 		"abr": "mechwithwings",
-		"price": -10,
+		"price": 4167,
 		"category": "Animal",
 		"defname": "M_MechaWinged"
 	},
@@ -5660,19 +5660,19 @@
 	},
 	{
 		"abr": "serpent-likewithfourarms",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_SnekFourArm"
 	},
 	{
 		"abr": "serpent-likewithfourarmsandwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_SnekFourArmWinged"
 	},
 	{
 		"abr": "serpent-likewithwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_SnekWinged"
 	},
@@ -5870,19 +5870,19 @@
 	},
 	{
 		"abr": "spider-likewithfourarms",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_SpooderFourArm"
 	},
 	{
 		"abr": "spider-likewithfourarmsandwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_SpooderFourArmWinged"
 	},
 	{
 		"abr": "spider-likewithwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_SpooderWinged"
 	},
@@ -5942,7 +5942,7 @@
 	},
 	{
 		"abr": "tailedhumanlikewithwings",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "G_TailedWinged"
 	},
@@ -6032,7 +6032,7 @@
 	},
 	{
 		"abr": "wingedhumanoid",
-		"price": -10,
+		"price": 2917,
 		"category": "Animal",
 		"defname": "BS_HumanoidWithWings"
 	},
@@ -6224,7 +6224,7 @@
 	},
 	{
 		"abr": "anchovy",
-		"price": -10,
+		"price": 1,
 		"category": "Raw fish",
 		"defname": "VCEF_RawAnchovy"
 	},
@@ -6705,7 +6705,7 @@
 	{
 		"abr": "bench",
 		"price": 86,
-		"category": "Furniture",
+		"category": "",
 		"defname": "Seat_Bench"
 	},
 	{
@@ -6806,7 +6806,7 @@
 	},
 	{
 		"abr": "biosolids",
-		"price": -10,
+		"price": 1,
 		"category": "Waste",
 		"defname": "Biosolids"
 	},
@@ -6902,7 +6902,7 @@
 	},
 	{
 		"abr": "bloodleech",
-		"price": -10,
+		"price": 1,
 		"category": "Alien raw fish",
 		"defname": "VCEF_BloodLeech"
 	},
@@ -6950,7 +6950,7 @@
 	},
 	{
 		"abr": "borealsardine",
-		"price": -10,
+		"price": 1,
 		"category": "Alien raw fish",
 		"defname": "VCEF_BorealSardine"
 	},
@@ -7064,7 +7064,7 @@
 	},
 	{
 		"abr": "cannon",
-		"price": 262,
+		"price": 450,
 		"category": "Security",
 		"defname": "VFEP_Turret_Cannon"
 	},
@@ -7719,7 +7719,7 @@
 	{
 		"abr": "dartsboard",
 		"price": 174,
-		"category": "Furniture",
+		"category": "Recreation",
 		"defname": "Joy_DartsBoard"
 	},
 	{
@@ -7958,7 +7958,7 @@
 	},
 	{
 		"abr": "duskysprat",
-		"price": -10,
+		"price": 1,
 		"category": "Alien raw fish",
 		"defname": "VCEF_DuskySprat"
 	},
@@ -8084,7 +8084,7 @@
 	},
 	{
 		"abr": "ergonomicbed",
-		"price": 450,
+		"price": 517,
 		"category": "Furniture",
 		"defname": "Bed_Ergonomic"
 	},
@@ -8096,7 +8096,7 @@
 	},
 	{
 		"abr": "ergonomicdoublebed",
-		"price": 867,
+		"price": 1008,
 		"category": "Furniture",
 		"defname": "Bed_DoubleErgonomic"
 	},
@@ -8180,7 +8180,7 @@
 	},
 	{
 		"abr": "fieldgun",
-		"price": 1058,
+		"price": 792,
 		"category": "Security",
 		"defname": "VFEP_Turret_FieldGun"
 	},
@@ -8366,7 +8366,7 @@
 	},
 	{
 		"abr": "frostleaf",
-		"price": -10,
+		"price": 1,
 		"category": "Raw resources",
 		"defname": "AB_RawFrostLeaf"
 	},
@@ -8954,7 +8954,7 @@
 	},
 	{
 		"abr": "guppy",
-		"price": -10,
+		"price": 1,
 		"category": "Raw fish",
 		"defname": "VCEF_RawGuppy"
 	},
@@ -9884,13 +9884,13 @@
 	},
 	{
 		"abr": "mime",
-		"price": 1667,
+		"price": -10,
 		"category": "Animals",
 		"defname": "AA_Mime"
 	},
 	{
 		"abr": "minnow",
-		"price": -10,
+		"price": 1,
 		"category": "Raw fish",
 		"defname": "VCEF_RawMinnow"
 	},
@@ -10262,7 +10262,7 @@
 	},
 	{
 		"abr": "ocularjelly",
-		"price": 417,
+		"price": 41700,
 		"category": "Animals",
 		"defname": "AA_OcularJelly"
 	},
@@ -10298,7 +10298,7 @@
 	},
 	{
 		"abr": "operatingtable",
-		"price": 508,
+		"price": 592,
 		"category": "Furniture",
 		"defname": "Bed_OperatingTable"
 	},
@@ -10616,7 +10616,7 @@
 	},
 	{
 		"abr": "propanebag",
-		"price": -10,
+		"price": 1,
 		"category": "Alien raw fish",
 		"defname": "VCEF_PropaneBag"
 	},
@@ -10917,7 +10917,7 @@
 	{
 		"abr": "punchingbag",
 		"price": 375,
-		"category": "Furniture",
+		"category": "",
 		"defname": "Joy_PunchingBag"
 	},
 	{
@@ -11180,7 +11180,7 @@
 	},
 	{
 		"abr": "royalposterbed",
-		"price": 2008,
+		"price": 2167,
 		"category": "Furniture",
 		"defname": "Bed_Kingsize"
 	},
@@ -11462,7 +11462,7 @@
 	},
 	{
 		"abr": "simplebed",
-		"price": 137,
+		"price": 221,
 		"category": "Furniture",
 		"defname": "Bed_Simple"
 	},
@@ -11834,7 +11834,7 @@
 	},
 	{
 		"abr": "sprat",
-		"price": -10,
+		"price": 1,
 		"category": "Raw fish",
 		"defname": "VCEF_RawSprat"
 	},
@@ -11966,7 +11966,7 @@
 	},
 	{
 		"abr": "super-nanites",
-		"price": 1250,
+		"price": 5667,
 		"category": "Items",
 		"defname": "VFEA_SuperNanites"
 	},
@@ -12062,7 +12062,7 @@
 	},
 	{
 		"abr": "tentacularfruit",
-		"price": -10,
+		"price": 1,
 		"category": "Vegetarian",
 		"defname": "AB_RawTentacularFruit"
 	},
@@ -12932,7 +12932,7 @@
 	},
 	{
 		"abr": "goldencube",
-		"price": 20000,
+		"price": -10,
 		"category": "Misc",
 		"defname": "GoldenCube"
 	},
@@ -13109,48 +13109,6 @@
 		"price": 3000,
 		"category": "Headgear",
 		"defname": "Apparel_NanoSuitHelmet"
-	},
-	{
-		"abr": "nanotechergonomicbed",
-		"price": 533,
-		"category": "Furniture",
-		"defname": "Bed_Ergonomic_NanoBed"
-	},
-	{
-		"abr": "nanotechergonomicdoublebed",
-		"price": 1017,
-		"category": "Furniture",
-		"defname": "Bed_DoubleErgonomic_NanoBed"
-	},
-	{
-		"abr": "nanotechoperatingtable",
-		"price": 592,
-		"category": "Furniture",
-		"defname": "Bed_OperatingTable_NanoBed"
-	},
-	{
-		"abr": "nanotechroyalposterbed",
-		"price": 2167,
-		"category": "Furniture",
-		"defname": "Bed_Kingsize_NanoBed"
-	},
-	{
-		"abr": "nanotechsimplebed",
-		"price": 221,
-		"category": "Furniture",
-		"defname": "Bed_Simple_NanoBed"
-	},
-	{
-		"abr": "nanotechslabbed",
-		"price": 187,
-		"category": "Furniture",
-		"defname": "SlabBed_NanoBed"
-	},
-	{
-		"abr": "nanotechslabdoublebed",
-		"price": 442,
-		"category": "Furniture",
-		"defname": "SlabDoubleBed_NanoBed"
 	},
 	{
 		"abr": "nerveshredderclaw",
@@ -13819,11 +13777,233 @@
 		"defname": "VBE_Yuenyeung"
 	},
 	{
-		"abr": "zombrella",
-		"price": 3333,
-		"category": "Misc",
-		"defname": "Zombrella"
-	}
+		"abr": "activecamouflage",
+		"price": 2383,
+		"category": "Bionic",
+		"defname": "LTS_StealthSystem"
+	},
+	{
+		"abr": "cellularadaptor",
+		"price": 1717,
+		"category": "Bionic",
+		"defname": "LTS_CellularAdapter"
+	},
+	{
+		"abr": "centauroidwithsixarms",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_CentaurSixArm"
+	},
+	{
+		"abr": "centauroidwithsixarmsandwings",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_CentaurSixArmWinged"
+	},
+	{
+		"abr": "mechwithfourlegsandsixarms",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaCentaurSixArm"
+	},
+	{
+		"abr": "mechwithfourlegsandsixarmsandwings",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaCentaurSixArmWinged"
+	},
+	{
+		"abr": "mechwithserpent-liketailandsixarms",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSnekSixArm"
+	},
+	{
+		"abr": "mechwithserpent-liketailandsixarmsandwings",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSnekSixArmWinged"
+	},
+	{
+		"abr": "mechwithsixarms",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSixArm"
+	},
+	{
+		"abr": "mechwithsixarmsandatail",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSixArmTailed"
+	},
+	{
+		"abr": "mechwithsixarmsandatailandwings",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSixArmTailedWinged"
+	},
+	{
+		"abr": "mechwithsixarmsandwings",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSixArmWinged"
+	},
+	{
+		"abr": "mechwithspider-likeabdomenandsixarms",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSpooderSixArm"
+	},
+	{
+		"abr": "mechwithspider-likeabdomenandsixarmsandwings",
+		"price": 4167,
+		"category": "Animal",
+		"defname": "M_MechaSpooderSixArmWinged"
+	},
+	{
+		"abr": "serpent-likewithsixarms",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_SnekSixArm"
+	},
+	{
+		"abr": "serpent-likewithsixarmsandwings",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_SnekSixArmWinged"
+	},
+	{
+		"abr": "sixarmedhuman",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "BS_SixArmedHuman"
+	},
+	{
+		"abr": "six-armedhumanlikewithatail",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_SixArmTailed"
+	},
+	{
+		"abr": "six-armedhumanlikewithatailandwings",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_SixArmTailedWinged"
+	},
+	{
+		"abr": "six-armedhumanlikewithwings",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_SixArmWinged"
+	},
+	{
+		"abr": "spider-likewithsixarms",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_SpooderSixArm"
+	},
+	{
+		"abr": "languagebook",
+		"price": 417,
+		"category": "Books",
+		"defname": "LanguageBook"
+	},
+	{
+		"abr": "spider-likewithsixarmsandwings",
+		"price": 2917,
+		"category": "Animal",
+		"defname": "G_SpooderSixArmWinged"
+	},
+	{
+		"abr": "chiseleddoublebed",
+		"price": 318,
+		"category": "Furniture",
+		"defname": "VFE_Bed_StoneSlabDouble"
+	},
+	{
+		"abr": "coffeetable",
+		"price": 121,
+		"category": "Furniture",
+		"defname": "VFE_CoffeeTable"
+	},
+	{
+		"abr": "desklamp",
+		"price": 49,
+		"category": "Furniture",
+		"defname": "VFE_DeskLamp"
+	},
+	{
+		"abr": "floorlamp",
+		"price": 66,
+		"category": "Furniture",
+		"defname": "VFE_FloorLamp"
+	},
+	{
+		"abr": "longplantpot",
+		"price": 68,
+		"category": "Furniture",
+		"defname": "VFE_LongPlantPot"
+	},
+	{
+		"abr": "lounger",
+		"price": 174,
+		"category": "Furniture",
+		"defname": "VFE_Lounger"
+	},
+	{
+		"abr": "modularcouch",
+		"price": 375,
+		"category": "Furniture",
+		"defname": "VFE_ModularCouch"
+	},
+	{
+		"abr": "royalstandinglamp",
+		"price": 150,
+		"category": "Furniture",
+		"defname": "VFE_RoyalLamp"
+	},
+	{
+		"abr": "royalwardrobe",
+		"price": 1325,
+		"category": "Furniture",
+		"defname": "VFE_RoyalWardrobe"
+	},
+	{
+		"abr": "simpledoublebed",
+		"price": 274,
+		"category": "Furniture",
+		"defname": "VFE_Bed_SimpleDouble"
+	},
+	{
+		"abr": "unaflowerdecorationhat",
+		"price": 203,
+		"category": "Headgear",
+		"defname": "UNA_Ohanabousi"
+	},
+	{
+		"abr": "unagothicdress",
+		"price": 367,
+		"category": "Noble apparel",
+		"defname": "Apparel_UNA_gothicdress"
+	},
+	{
+		"abr": "unanobleundergarment",
+		"price": 200,
+		"category": "Noble apparel",
+		"defname": "UNA_Dress_sitagi"
+	},
+	{
+		"abr": "unaroyalcrown",
+		"price": 247,
+		"category": "Headgear",
+		"defname": "UNA_KingCrown"
+	},
+	{
+		"abr": "unaroyaldress",
+		"price": 467,
+		"category": "Noble apparel",
+		"defname": "Apparel_UNARoyalDress"
+	},
 	],
-	"total": 2304
+	"total": 2342
 }

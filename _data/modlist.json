@@ -12,12 +12,6 @@
     "version": "2.3.1.0"
   },
   {
-    "author": "Samboy063",
-    "name": "BetterLoading",
-    "steamId": "1999454301",
-    "version": "3.5.0.0"
-  },
-  {
     "author": "bradson",
     "name": "Fishery - Modding Library",
     "steamId": null,
@@ -116,12 +110,6 @@
   {
     "author": "cucumpear and Azrael",
     "name": "Animal Variety Coats",
-    "steamId": null,
-    "version": null
-  },
-  {
-    "author": "LokiVKlokeNaAndoke",
-    "name": "AutoPriorities",
     "steamId": null,
     "version": null
   },
@@ -270,6 +258,12 @@
     "version": "1.0.0+2534407508e276c66794b6b0ba18f36e2117384e"
   },
   {
+    "author": "StatistNo1",
+    "name": "EnchantQualityPlus",
+    "steamId": "2961996244",
+    "version": "1.0.0"
+  },
+  {
     "author": "Slime-Senpai",
     "name": "EndlessGrowth",
     "steamId": "2894401734",
@@ -318,6 +312,12 @@
     "version": null
   },
   {
+    "author": "Adamas",
+    "name": "Hospital",
+    "steamId": "2992224079",
+    "version": "1.4.0.0"
+  },
+  {
     "author": "LTS",
     "name": "Integrated Implants",
     "steamId": null,
@@ -338,6 +338,12 @@
   {
     "author": "juanlopez2008",
     "name": "LightsOut",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "m00nl1ght",
+    "name": "Log Publisher from HugsLib",
     "steamId": null,
     "version": null
   },
@@ -375,7 +381,7 @@
     "author": "Epicguru",
     "name": "Melee Animation",
     "steamId": "2944488802",
-    "version": "1.0.0+46a9740cb50a3dad6d14d360704a585040167a04"
+    "version": "1.0.0+751bf536645b800ffc0c12a292338d268092ae18"
   },
   {
     "author": "Neceros (Original) and Chris",
@@ -492,6 +498,12 @@
     "version": "1.1.0.0"
   },
   {
+    "author": "DimonSever000",
+    "name": "Rim Languages",
+    "steamId": "3450332059",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "aRandomKiwi",
     "name": "RimSaves",
     "steamId": "1713367505",
@@ -564,6 +576,12 @@
     "version": "1.0.0.0"
   },
   {
+    "author": "Oskar Potocki, xrushha, legodude17 and ISOREX",
+    "name": "Vanilla Furniture Expanded - Architect",
+    "steamId": "2608762624",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "Sam",
     "name": "Tilled Soil",
     "steamId": null,
@@ -618,6 +636,12 @@
     "version": "1.5.0.1"
   },
   {
+    "author": "UNAGI",
+    "name": "UNAGI Royalty Apparel",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "NuanKi",
     "name": "Un-Limited Reborn",
     "steamId": null,
@@ -627,7 +651,7 @@
     "author": "Mlie",
     "name": "Use This Instead",
     "steamId": "3396308787",
-    "version": "1.5.62"
+    "version": "1.5.96"
   },
   {
     "author": "Oskar Potocki, Trunken and Sarg",
@@ -710,8 +734,8 @@
   {
     "author": "OskarPotocki, Atlas, Kikohi and Sarg",
     "name": "Vanilla Furniture Expanded",
-    "steamId": null,
-    "version": null
+    "steamId": "1718190143",
+    "version": "1.1.0"
   },
   {
     "author": "Oskar Potocki, Trunken and Sarg",
@@ -740,8 +764,14 @@
   {
     "author": "Tiduin",
     "name": "Wealth Display (Continued)",
-    "steamId": null,
-    "version": null
+    "steamId": "3298960397",
+    "version": "1.0.0.0"
+  },
+  {
+    "author": "Epicguru (James B)",
+    "name": "What's That Mod",
+    "steamId": "2258431182",
+    "version": "1.0.0+4ee7aafb566237826b23c6e55b2c46e43e5343c2"
   },
   {
     "author": "Zalejrem",
@@ -894,9 +924,9 @@
     "version": null
   },
   {
-    "author": "Krkr",
-    "name": "RocketMan - Performance Mod",
-    "steamId": "2479389928",
-    "version": "0.6.3.2421"
+    "author": "Chicken Plucker and Taranchuk",
+    "name": "[RH2] Rimdeed® - Pawn Recruitment",
+    "steamId": "2411722784",
+    "version": "1.0.0.0"
   }
 ]

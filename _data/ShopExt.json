@@ -4091,6 +4091,36 @@
       },
       "defName": "VoidFascination",
       "name": "voidfascination"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy easily perceives foreign languages.",
+      "stats": [
+        "x200% language learning ability"
+      ],
+      "conflicts": [
+        "slowlearner"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "slowlearner"
+        ],
+        "stats": [
+          "x200% language learning ability"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Rim Languages",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Polyglot",
+      "name": "polyglot"
     }
   ],
   "races": [

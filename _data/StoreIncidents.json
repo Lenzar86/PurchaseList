@@ -216,6 +216,11 @@
 		"karmatype": "Bad"
 	},
 	{
+		"abr": "mechanoidraid",
+		"price": 2500,
+		"karmatype": "Bad"
+	},
+	{
 		"abr": "infestation",
 		"price": 2500,
 		"karmatype": "Bad"
@@ -406,5 +411,5 @@
 		"karmatype": "Doom"
 	}
 	],
-	"total": 81
+	"total": 82
 }
