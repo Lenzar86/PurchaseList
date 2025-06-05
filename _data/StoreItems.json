@@ -6703,12 +6703,6 @@
 		"defname": "AA_Leather_Behemoth"
 	},
 	{
-		"abr": "bench",
-		"price": 86,
-		"category": "",
-		"defname": "Seat_Bench"
-	},
-	{
 		"abr": "bigshelf",
 		"price": 257,
 		"category": "Furniture",
@@ -10915,12 +10909,6 @@
 		"defname": "VCE_RawPumpkin"
 	},
 	{
-		"abr": "punchingbag",
-		"price": 375,
-		"category": "",
-		"defname": "Joy_PunchingBag"
-	},
-	{
 		"abr": "purplefungus",
 		"price": 2,
 		"category": "Vegetarian",
@@ -14004,6 +13992,54 @@
 		"category": "Noble apparel",
 		"defname": "Apparel_UNARoyalDress"
 	},
+	{
+		"abr": "unaroyalrobe",
+		"price": 500,
+		"category": "Noble apparel",
+		"defname": "UNA_RoyalRobe"
+	},
+	{
+		"abr": "unastyleshirt-pants",
+		"price": 309,
+		"category": "Misc",
+		"defname": "UNA_MstyleShirtpants"
+	},
+	{
+		"abr": "unathornhelmet",
+		"price": 153,
+		"category": "Headgear",
+		"defname": "Apparel_UNA_TogeHelm"
+	},
+	{
+		"abr": "unaunderwearfordresses",
+		"price": 166,
+		"category": "Apparel",
+		"defname": "Apparel_UNA_Dress_sitagi"
+	},
+	{
+		"abr": "unaweddingveil",
+		"price": 203,
+		"category": "Headgear",
+		"defname": "Apparel_UNA_weddingveil"
+	},
+	{
+		"abr": "una_dressr",
+		"price": 367,
+		"category": "Noble apparel",
+		"defname": "Apparel_UNA_dressR"
+	},
+	{
+		"abr": "una_dresstailoringbench",
+		"price": 262,
+		"category": "Production",
+		"defname": "UNA_DressTailoringBench"
+	},
+	{
+		"abr": "una_ribbondress",
+		"price": 367,
+		"category": "Noble apparel",
+		"defname": "Apparel_UNA_RibbonDress"
+	},
 	],
-	"total": 2342
+	"total": 2344
 }

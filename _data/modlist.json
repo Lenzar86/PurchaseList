@@ -276,6 +276,12 @@
     "version": "1.0.8866.27181"
   },
   {
+    "author": "Holli",
+    "name": "Flagtastic!",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Mlie",
     "name": "Food Alert (Continued)",
     "steamId": "2017538067",
@@ -462,6 +468,12 @@
     "version": "1.0.18"
   },
   {
+    "author": "Sandy",
+    "name": "RPG Style Inventory Revamped",
+    "steamId": "2478833213",
+    "version": "1.0.0.0"
+  },
+  {
     "author": "mastertea",
     "name": "RandomPlus",
     "steamId": null,
@@ -502,6 +514,18 @@
     "name": "Rim Languages",
     "steamId": "3450332059",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Jaxe",
+    "name": "RimHUD",
+    "steamId": "1508850027",
+    "version": "1.15.3.0"
+  },
+  {
+    "author": "Erdnussbrot",
+    "name": "RimHUD - Deutsch",
+    "steamId": null,
+    "version": null
   },
   {
     "author": "aRandomKiwi",
@@ -651,7 +675,7 @@
     "author": "Mlie",
     "name": "Use This Instead",
     "steamId": "3396308787",
-    "version": "1.5.96"
+    "version": "1.5.97"
   },
   {
     "author": "Oskar Potocki, Trunken and Sarg",
@@ -718,12 +742,6 @@
     "name": "Vanilla Research Panel - Queue",
     "steamId": null,
     "version": null
-  },
-  {
-    "author": "Jaxe",
-    "name": "RimHUD",
-    "steamId": "1508850027",
-    "version": "1.15.3.0"
   },
   {
     "author": "legodude17 and Oskar Potocki",
