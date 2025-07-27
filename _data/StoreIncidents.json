@@ -409,7 +409,12 @@
 		"abr": "smite",
 		"price": 2500,
 		"karmatype": "Doom"
+	},
+	{
+		"abr": "sanctuary",
+		"price": 100000,
+		"karmatype": "Good"
 	}
 	],
-	"total": 82
+	"total": 83
 }
