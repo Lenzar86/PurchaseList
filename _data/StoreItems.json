@@ -2121,19 +2121,19 @@
 	{
 		"abr": "neurocalculator",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "Neurocalculator"
 	},
 	{
 		"abr": "learningassistant",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "LearningAssistant"
 	},
 	{
 		"abr": "gastro-analyzer",
 		"price": 1383,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "GastroAnalyzer"
 	},
 	{
@@ -2145,49 +2145,49 @@
 	{
 		"abr": "coagulator",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "Coagulator"
 	},
 	{
 		"abr": "healingenhancer",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "HealingEnhancer"
 	},
 	{
 		"abr": "toughskingland",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "ToughskinGland"
 	},
 	{
 		"abr": "armorskingland",
 		"price": 2458,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "ArmorskinGland"
 	},
 	{
 		"abr": "stoneskingland",
 		"price": 3200,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "StoneskinGland"
 	},
 	{
 		"abr": "aestheticshaper",
 		"price": 1383,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "AestheticShaper"
 	},
 	{
 		"abr": "aestheticnose",
 		"price": 975,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "AestheticNose"
 	},
 	{
 		"abr": "loveenhancer",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "LoveEnhancer"
 	},
 	{
@@ -2211,13 +2211,13 @@
 	{
 		"abr": "circadianassistant",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "CircadianAssistant"
 	},
 	{
 		"abr": "circadianhalf-cycler",
 		"price": 1717,
-		"category": "Bionic",
+		"category": "Ultratech",
 		"defname": "CircadianHalfCycler"
 	},
 	{
@@ -4819,30 +4819,6 @@
 		"defname": "BS_IndestructibelApparel"
 	},
 	{
-		"abr": "archotechear",
-		"price": 4667,
-		"category": "Archotech",
-		"defname": "LTS_ArchotechEar"
-	},
-	{
-		"abr": "archotechheart",
-		"price": 4667,
-		"category": "Archotech",
-		"defname": "LTS_ArchotechHeart"
-	},
-	{
-		"abr": "archotechjaw",
-		"price": 4667,
-		"category": "Archotech",
-		"defname": "LTS_ArchotechJaw"
-	},
-	{
-		"abr": "archotechspine",
-		"price": 4667,
-		"category": "Archotech",
-		"defname": "LTS_ArchotechSpine"
-	},
-	{
 		"abr": "archotechvoicebox",
 		"price": 1667,
 		"category": "Archotech",
@@ -6861,7 +6837,7 @@
 	{
 		"abr": "fiberskinsuit",
 		"price": 4667,
-		"category": "Armor",
+		"category": "Noble apparel",
 		"defname": "Apparel_NanoSkin"
 	},
 	{
@@ -8279,12 +8255,6 @@
 		"price": 2,
 		"category": "Condiments",
 		"defname": "VCE_Ketchup"
-	},
-	{
-		"abr": "kidoutfitstand",
-		"price": 102,
-		"category": "Furniture",
-		"defname": "Building_KidOutfitStand"
 	},
 	{
 		"abr": "kidvacsuit",
@@ -9935,12 +9905,6 @@
 		"price": 129,
 		"category": "Furniture",
 		"defname": "Light_Streetlamp"
-	},
-	{
-		"abr": "outfitstand",
-		"price": 119,
-		"category": "Furniture",
-		"defname": "Building_OutfitStand"
 	},
 	{
 		"abr": "overgrowncolossus",
@@ -13113,7 +13077,7 @@
 	{
 		"abr": "speedskinsuit",
 		"price": 4667,
-		"category": "Armor",
+		"category": "Noble apparel",
 		"defname": "Apparel_NanoSpeed"
 	},
 	{
@@ -14952,6 +14916,624 @@
 		"category": "Ranged weapons",
 		"defname": "Gun_Winchester_OneEightSevenSix"
 	},
+	{
+		"abr": "wall-mountedteg",
+		"price": 5308,
+		"category": "Temperature",
+		"defname": "TEG_Glitter"
+	},
+	{
+		"abr": "bannerbelt(stylea)",
+		"price": 257,
+		"category": "Utility",
+		"defname": "Apparel_BannerBeltStyleA"
+	},
+	{
+		"abr": "bannerbelt(styleb)",
+		"price": 257,
+		"category": "Utility",
+		"defname": "Apparel_BannerBeltStyleB"
+	},
+	{
+		"abr": "bannerbelt(stylec)",
+		"price": 257,
+		"category": "Utility",
+		"defname": "Apparel_BannerBeltStyleC"
+	},
+	{
+		"abr": "flagonawall",
+		"price": 114,
+		"category": "Buildings",
+		"defname": "AMN_WallFlag"
+	},
+	{
+		"abr": "flagpole",
+		"price": 167,
+		"category": "Buildings",
+		"defname": "AMN_PoleFlag"
+	},
+	{
+		"abr": "tallflagpole",
+		"price": 251,
+		"category": "Buildings",
+		"defname": "AMN_PoleFlagTall"
+	},
+	{
+		"abr": "tallverticalflagpole",
+		"price": 251,
+		"category": "Buildings",
+		"defname": "AMN_PoleFlagTallVertical"
+	},
+	{
+		"abr": "verticalflagpole",
+		"price": 167,
+		"category": "Buildings",
+		"defname": "AMN_PoleFlagVertical"
+	},
+	{
+		"abr": "addictionassistant",
+		"price": 1742,
+		"category": "Ultratech",
+		"defname": "FSFImplantBrainAddiction"
+	},
+	{
+		"abr": "advancedbionicacidjaw",
+		"price": 3333,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicAcidJaw"
+	},
+	{
+		"abr": "advancedbionicarm",
+		"price": 3075,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicArm"
+	},
+	{
+		"abr": "advancedbionicbladder",
+		"price": 2333,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicBladder"
+	},
+	{
+		"abr": "advancedbionicbreachingarm",
+		"price": 4633,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicBreachArm"
+	},
+	{
+		"abr": "advancedbionicchefarm",
+		"price": 5083,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicCookingArm"
+	},
+	{
+		"abr": "advancedbioniccleanerleg",
+		"price": 4633,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicCleanerLeg"
+	},
+	{
+		"abr": "advancedbionicconstructionarm",
+		"price": 5083,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicConstructionArm"
+	},
+	{
+		"abr": "advancedbionicdrillarm",
+		"price": 5083,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicDrillArm"
+	},
+	{
+		"abr": "advancedbionicear",
+		"price": 2333,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicEar"
+	},
+	{
+		"abr": "advancedbioniceye",
+		"price": 3075,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicEye"
+	},
+	{
+		"abr": "advancedbionicfieldarm",
+		"price": 5083,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicFieldArm"
+	},
+	{
+		"abr": "advancedbionicflamejaw",
+		"price": 3333,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicFlameJaw"
+	},
+	{
+		"abr": "advancedbionicheart",
+		"price": 3075,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicHeart"
+	},
+	{
+		"abr": "advancedbionicjaw",
+		"price": 2333,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicJaw"
+	},
+	{
+		"abr": "advancedbionickidney",
+		"price": 1667,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicKidney"
+	},
+	{
+		"abr": "advancedbionicleg",
+		"price": 3075,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicLeg"
+	},
+	{
+		"abr": "advancedbionicliver",
+		"price": 2333,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicLiver"
+	},
+	{
+		"abr": "advancedbioniclung",
+		"price": 2408,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicLung"
+	},
+	{
+		"abr": "advancedbionicmedicarm",
+		"price": 5183,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicMedicArm"
+	},
+	{
+		"abr": "advancedbionicpowerarm",
+		"price": 4633,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicPowerArm"
+	},
+	{
+		"abr": "advancedbionicpowerleg",
+		"price": 4633,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicPowerLeg"
+	},
+	{
+		"abr": "advancedbionicproductionarm",
+		"price": 5083,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicCraftingArm"
+	},
+	{
+		"abr": "advancedbionicrevenantspine",
+		"price": 6083,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicRevenantSpine"
+	},
+	{
+		"abr": "advancedbionicshockerarm",
+		"price": 4633,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicTaserArm"
+	},
+	{
+		"abr": "advancedbionicshockerjaw",
+		"price": 3483,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicTaserJaw"
+	},
+	{
+		"abr": "advancedbionicspine",
+		"price": 3075,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicSpine"
+	},
+	{
+		"abr": "advancedbionicstomach",
+		"price": 2333,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicStomach"
+	},
+	{
+		"abr": "advancedhygieneenhancer",
+		"price": 2333,
+		"category": "Ultratech",
+		"defname": "FSFAdvHygieneEnhancer"
+	},
+	{
+		"abr": "aiassistantanimalsmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleAnimals"
+	},
+	{
+		"abr": "aiassistantartisticmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleArtistic"
+	},
+	{
+		"abr": "aiassistantconstructionmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleConstruction"
+	},
+	{
+		"abr": "aiassistantcookingmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleCooking"
+	},
+	{
+		"abr": "aiassistantintellectualmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleIntellectual"
+	},
+	{
+		"abr": "aiassistantmedicalmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleMedical"
+	},
+	{
+		"abr": "aiassistantmeleemodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleMelee"
+	},
+	{
+		"abr": "aiassistantmicrocomputer",
+		"price": 3333,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleCore"
+	},
+	{
+		"abr": "aiassistantminingmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleMining"
+	},
+	{
+		"abr": "aiassistantplantsmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModulePlants"
+	},
+	{
+		"abr": "aiassistantproductionmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleCrafting"
+	},
+	{
+		"abr": "aiassistantshootingmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleShooting"
+	},
+	{
+		"abr": "aiassistantsocialmodule",
+		"price": 1667,
+		"category": "AI assistant modules",
+		"defname": "FSFAIModuleSocial"
+	},
+	{
+		"abr": "archotechear",
+		"price": 4300,
+		"category": "Archotech",
+		"defname": "FSFArchotechEar"
+	},
+	{
+		"abr": "archotechheart",
+		"price": 4450,
+		"category": "Archotech",
+		"defname": "FSFArchotechHeart"
+	},
+	{
+		"abr": "archotechjaw",
+		"price": 4300,
+		"category": "Archotech",
+		"defname": "FSFArchotechJaw"
+	},
+	{
+		"abr": "archotechkidney",
+		"price": 4300,
+		"category": "Archotech",
+		"defname": "FSFArchotechKidney"
+	},
+	{
+		"abr": "archotechliver",
+		"price": 4300,
+		"category": "Archotech",
+		"defname": "FSFArchotechLiver"
+	},
+	{
+		"abr": "archotechlung",
+		"price": 4450,
+		"category": "Archotech",
+		"defname": "FSFArchotechLung"
+	},
+	{
+		"abr": "archotechmedicarm",
+		"price": 10000,
+		"category": "Archotech",
+		"defname": "FSFArchotechMedicArm"
+	},
+	{
+		"abr": "archotechpowerarm",
+		"price": 8900,
+		"category": "Archotech",
+		"defname": "FSFArchotechPowerArm"
+	},
+	{
+		"abr": "archotechpowercore",
+		"price": 6300,
+		"category": "Archotech",
+		"defname": "FSFArchotechPowerCore"
+	},
+	{
+		"abr": "archotechspine",
+		"price": 5783,
+		"category": "Archotech",
+		"defname": "FSFArchotechSpine"
+	},
+	{
+		"abr": "archotechstomach",
+		"price": 4300,
+		"category": "Archotech",
+		"defname": "FSFArchotechStomach"
+	},
+	{
+		"abr": "armor-enhancingmechanites",
+		"price": 3333,
+		"category": "Mechanite serums",
+		"defname": "FSFImplantMechanitesArmor"
+	},
+	{
+		"abr": "artificialbone",
+		"price": 153,
+		"category": "Prosthetic",
+		"defname": "FSFArtificialBone"
+	},
+	{
+		"abr": "artificialnose",
+		"price": 122,
+		"category": "Prosthetic",
+		"defname": "FSFArtificialNose"
+	},
+	{
+		"abr": "bionicbreachingarm",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicBreachArm"
+	},
+	{
+		"abr": "bionicchefarm",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicCookingArm"
+	},
+	{
+		"abr": "bioniccleanerleg",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicCleanerLeg"
+	},
+	{
+		"abr": "bionicconstructionarm",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicConstructionArm"
+	},
+	{
+		"abr": "bionicdrillarm",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicDrillArm"
+	},
+	{
+		"abr": "bionicfieldarm",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicFieldArm"
+	},
+	{
+		"abr": "bionickidney",
+		"price": 975,
+		"category": "Bionic",
+		"defname": "FSFBionicKidney"
+	},
+	{
+		"abr": "bionicliver",
+		"price": 1308,
+		"category": "Bionic",
+		"defname": "FSFBionicLiver"
+	},
+	{
+		"abr": "bioniclung",
+		"price": 1383,
+		"category": "Bionic",
+		"defname": "FSFBionicLung"
+	},
+	{
+		"abr": "bionicpowerarm",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicPowerArm"
+	},
+	{
+		"abr": "bionicproductionarm",
+		"price": 2608,
+		"category": "Bionic",
+		"defname": "FSFBionicCraftingArm"
+	},
+	{
+		"abr": "bionicstable",
+		"price": 758,
+		"category": "Production",
+		"defname": "FSFBionicsTable"
+	},
+	{
+		"abr": "darklightmodule",
+		"price": 1742,
+		"category": "Ultratech",
+		"defname": "FSFImplantBrainDarklight"
+	},
+	{
+		"abr": "empshield",
+		"price": 1742,
+		"category": "Ultratech",
+		"defname": "FSFImplantEMPShield"
+	},
+	{
+		"abr": "environmentalfilter",
+		"price": 1742,
+		"category": "Ultratech",
+		"defname": "FSFImplantTorsoRespirator"
+	},
+	{
+		"abr": "healingmechanites",
+		"price": 3333,
+		"category": "Mechanite serums",
+		"defname": "FSFImplantMechanitesHealing"
+	},
+	{
+		"abr": "immortalitycore",
+		"price": 16667,
+		"category": "Archotech",
+		"defname": "FSFArchotechImplantTorsoImmortal"
+	},
+	{
+		"abr": "immunity-enhancingmechanites",
+		"price": 3333,
+		"category": "Mechanite serums",
+		"defname": "FSFImplantMechanitesImmunity"
+	},
+	{
+		"abr": "positronicbrain",
+		"price": 7075,
+		"category": "Ultratech",
+		"defname": "FSFAdvBionicBrain"
+	},
+	{
+		"abr": "prostheticeye",
+		"price": 367,
+		"category": "Prosthetic",
+		"defname": "FSFProstheticEye"
+	},
+	{
+		"abr": "prostheticfoot",
+		"price": 228,
+		"category": "Prosthetic",
+		"defname": "FSFProstheticFoot"
+	},
+	{
+		"abr": "prosthetichand",
+		"price": 228,
+		"category": "Prosthetic",
+		"defname": "FSFProstheticHand"
+	},
+	{
+		"abr": "prosthetickidney",
+		"price": 367,
+		"category": "Prosthetic",
+		"defname": "FSFSimpleProstheticKidney"
+	},
+	{
+		"abr": "prostheticliver",
+		"price": 367,
+		"category": "Prosthetic",
+		"defname": "FSFSimpleProstheticLiver"
+	},
+	{
+		"abr": "prostheticlung",
+		"price": 383,
+		"category": "Prosthetic",
+		"defname": "FSFSimpleProstheticLung"
+	},
+	{
+		"abr": "prostheticspine",
+		"price": 400,
+		"category": "Prosthetic",
+		"defname": "FSFProstheticSpine"
+	},
+	{
+		"abr": "prostheticstomach",
+		"price": 367,
+		"category": "Prosthetic",
+		"defname": "FSFSimpleProstheticStomach"
+	},
+	{
+		"abr": "psychic-enhancingmechanites",
+		"price": 3333,
+		"category": "Mechanite serums",
+		"defname": "FSFImplantMechanitesPsychic"
+	},
+	{
+		"abr": "recreationmodule",
+		"price": 1742,
+		"category": "Ultratech",
+		"defname": "FSFImplantBrainRecreation"
+	},
+	{
+		"abr": "reproductioncontroller",
+		"price": 1408,
+		"category": "Ultratech",
+		"defname": "FSFImplantReproduction"
+	},
+	{
+		"abr": "resurrectioncore",
+		"price": 4167,
+		"category": "Ultratech",
+		"defname": "FSFImplantTorsoResurrect"
+	},
+	{
+		"abr": "sense-enhancingmechanites",
+		"price": 3333,
+		"category": "Mechanite serums",
+		"defname": "FSFImplantMechanitesSensory"
+	},
+	{
+		"abr": "servitormodule",
+		"price": 1742,
+		"category": "Ultratech",
+		"defname": "FSFImplantBrainServitor"
+	},
+	{
+		"abr": "speed-enhancingmechanites",
+		"price": 3333,
+		"category": "Mechanite serums",
+		"defname": "FSFImplantMechanitesSpeed"
+	},
+	{
+		"abr": "strength-enhancingmechanites",
+		"price": 3333,
+		"category": "Mechanite serums",
+		"defname": "FSFImplantMechanitesStrength"
+	},
+	{
+		"abr": "suppressionmodule",
+		"price": 417,
+		"category": "Bionic",
+		"defname": "FSFImplantBrainSuppression"
+	},
+	{
+		"abr": "synapticregulator",
+		"price": 1717,
+		"category": "Bionic",
+		"defname": "FSFImplantBrainConsciousness"
+	},
+	{
+		"abr": "syntheticskingland",
+		"price": 6083,
+		"category": "Archotech",
+		"defname": "FSFArchotechSkinI"
+	}
 	],
-	"total": 2496
+	"total": 2597
 }
