@@ -120,12 +120,6 @@
     "version": "1.0.4.0"
   },
   {
-    "author": "Mehni",
-    "name": "Numbers (1.6 Temp)",
-    "steamId": "3513829896",
-    "version": "1.0.0+84bb098d16b26e403c811e34da99cf9a7752abc9"
-  },
-  {
     "author": "Neronix17",
     "name": "Outer Rim - Chiss Ascendancy",
     "steamId": null,
@@ -294,6 +288,12 @@
     "version": null
   },
   {
+    "author": "Canon",
+    "name": "Titular Royalty",
+    "steamId": "2838668305",
+    "version": "1.0.0+3c5076eb2b6b1f6ef34f6e53efbe663a2fb7b415"
+  },
+  {
     "author": "nry",
     "name": "ToolkitCore",
     "steamId": "3013877477",
@@ -334,12 +334,6 @@
     "name": "Useful Marks",
     "steamId": "3506573327",
     "version": "1.0.0.0"
-  },
-  {
-    "author": "Oskar Potocki, Trunken and Sarg",
-    "name": "Vanilla Apparel Expanded",
-    "steamId": null,
-    "version": null
   },
   {
     "author": "1trickPwnyta",
@@ -384,8 +378,20 @@
     "version": "1.6.9313.28450"
   },
   {
+    "author": "Oskar Potocki, xrushha, Taranchuk, Sarg Bjornson and Oracle of Thessia",
+    "name": "Vanilla Factions Expanded - Medieval 2",
+    "steamId": "3444347874",
+    "version": "1.0.6.0"
+  },
+  {
     "author": "FrozenSnowFox",
     "name": "[FSF] Complex Jobs",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "UNAGI",
+    "name": "UNAGI Royalty Apparel",
     "steamId": null,
     "version": null
   }
