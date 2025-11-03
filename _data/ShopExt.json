@@ -1,4 +1,4 @@
-{
+﻿{
   "traits": [
     {
       "canAdd": true,
@@ -395,8 +395,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 3500,
+      "addPrice": 3,
+      "removePrice": 3,
       "degree": 0,
       "description": "Timmy is romantically attracted to people of his own gender.",
       "stats": [],
@@ -417,8 +417,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 3500,
+      "addPrice": 3,
+      "removePrice": 3,
       "degree": 0,
       "description": "Timmy is romantically attracted to both men and women.",
       "stats": [],
@@ -439,8 +439,8 @@
     {
       "canAdd": true,
       "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 3500,
+      "addPrice": 3,
+      "removePrice": 3,
       "degree": 0,
       "description": "Timmy has no sexual attraction to anyone at all.",
       "stats": [],
@@ -1744,7 +1744,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "Timmy has fragile skin and bones. he takes more damage than other people from the same blows.",
       "stats": [
@@ -1770,7 +1770,7 @@
       "canAdd": true,
       "canRemove": true,
       "addPrice": 3500,
-      "removePrice": 3500,
+      "removePrice": 5500,
       "degree": 0,
       "description": "The fewer people in Timmy's faction, the happier he is. Being alone is best of all.",
       "stats": [],
@@ -1815,8 +1815,34 @@
       "canRemove": true,
       "addPrice": 3500,
       "removePrice": 5500,
+      "degree": 2,
+      "description": "Timmy is stunningly handsome, with an exotic-yet-familiar facial structure and an arresting gaze. People are attracted to him before he even opens his mouth.",
+      "stats": [
+        "+2.0 beauty"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+2.0 beauty"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Handsome Trait",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Goodlooking",
+      "name": "handsome"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has a rebellious attitude, causing them to randomly decide to do a different task on occasion.",
+      "description": "Psychic enthrallment caused by incredibly strong mental influence. Thralls don't need to sleep or have recreation, but are unable to do skilled work and engage in social interactions.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1826,11 +1852,11 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Psycasts Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_Rebellious",
-      "name": "rebellious"
+      "defName": "VPE_Thrall",
+      "name": "thrall"
     },
     {
       "canAdd": true,
@@ -1838,25 +1864,85 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has their wires crossed in just the right way to make it so they snap easier.",
+      "description": "Timmy tends to let his mind drift, even in the middle of work. he may sometimes stop tasks at random.",
       "stats": [
-        "+10% mental break threshold"
+        "x50% global certainty loss factor"
+      ],
+      "conflicts": [
+        "workaholic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "workaholic"
+        ],
+        "stats": [
+          "x50% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_AbsentMinded",
+      "name": "absent-minded"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a screw loose, but it comes with a sharper scientific mind.",
+      "stats": [
+        "x115% research speed"
+      ],
+      "conflicts": [
+        "slowlearner"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "slowlearner"
+        ],
+        "stats": [
+          "x115% research speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Eccentric",
+      "name": "eccentric"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy strives for perfection in his work. he produces higher-quality products, but works more slowly. Failing to meet his standards causes unhappiness, and on rare occasions he may abandon a project mid-way.",
+      "stats": [
+        "x65% global work speed"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "+10% mental break threshold"
+          "x65% global work speed"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_Crosswired",
-      "name": "crosswired"
+      "defName": "VTE_Perfectionist",
+      "name": "perfectionist"
     },
     {
       "canAdd": true,
@@ -1864,27 +1950,125 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy doesn't learn as well as other droids of their model, they also have problems socially due to this.",
+      "description": "Timmy's instincts lean heavily toward cowardice. In danger, he will often hide or run before standing to fight.",
+      "stats": [],
+      "conflicts": [
+        "brave",
+        "bloodlust",
+        "brawler"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "brave",
+          "bloodlust",
+          "brawler"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Coward",
+      "name": "coward"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has stronger mental and physical fortitude than most. he can endure pain more readily, and is slower to break under harsh conditions.",
       "stats": [
-        "-15.00% social impact",
-        "-75% global learning factor"
+        "-20% mental break threshold",
+        "+20% pain shock threshold",
+        "x25% global certainty loss factor"
+      ],
+      "conflicts": [
+        "coward",
+        "iron-willed",
+        "steadfast",
+        "nervous",
+        "volatile",
+        "wimp"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "coward",
+          "iron-willed",
+          "steadfast",
+          "nervous",
+          "volatile",
+          "wimp"
+        ],
+        "stats": [
+          "-20% mental break threshold",
+          "+20% pain shock threshold",
+          "x25% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Brave",
+      "name": "brave"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Minor bruises and scrapes plague Timmy, usually from tripping or falling due to poor coordination.",
+      "stats": [],
+      "conflicts": [
+        "nimble"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "nimble"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Clumsy",
+      "name": "clumsy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy enjoys the heat of a dry summer day. he doesn't mind working up a sweat or sleeping in warmth.",
+      "stats": [
+        "+10.0C [18.0F] max comfortable temperature"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "-15.00% social impact",
-          "-75% global learning factor"
+          "+10.0C [18.0F] max comfortable temperature"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_Rustbrained",
-      "name": "rustbrained"
+      "defName": "VTE_HeatInclined",
+      "name": "heatinclined"
     },
     {
       "canAdd": true,
@@ -1892,25 +2076,25 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has a much better threshold for mental breaks, but sometimes go on an insulting spree for no reason and is more likely to fight with others.",
+      "description": "Timmy enjoys the chill of a brisk winter night. he doesn't mind shivering or sleeping in the cold.",
       "stats": [
-        "-15% mental break threshold"
+        "-10.0C [-18.0F] min comfortable temperature"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "-15% mental break threshold"
+          "-10.0C [-18.0F] min comfortable temperature"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_Choppy",
-      "name": "choppy"
+      "defName": "VTE_ColdInclined",
+      "name": "coldinclined"
     },
     {
       "canAdd": true,
@@ -1918,33 +2102,7 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has developed a condition that has been documented rarely in droids where they become tired of being around others, to the point they don't really feel strongly about anything, it makes them break a lot less easily but they also tend to wander about all sad occasionally as a side effect.",
-      "stats": [
-        "+20% mental break threshold"
-      ],
-      "conflicts": [],
-      "bypassLimit": false,
-      "data": {
-        "conflicts": [],
-        "stats": [
-          "+20% mental break threshold"
-        ],
-        "canBypassLimit": false,
-        "customName": false,
-        "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
-        "karmaTypeForAdding": null
-      },
-      "defName": "OuterRim_AP5Syndrome",
-      "name": "ap-5syndrome"
-    },
-    {
-      "canAdd": true,
-      "canRemove": true,
-      "addPrice": 3500,
-      "removePrice": 5500,
-      "degree": 0,
-      "description": "Timmy has some screws loose and as a result they'll on a rare occasion lose some ability with a random skill.",
+      "description": "A bomb could go off beside Timmy while he sleeps, and he would keep right on sleeping. he can't be bothered to work or defend the colony mid-nap.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -1954,11 +2112,11 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_LooseScrews",
-      "name": "loosescrews"
+      "defName": "VTE_HeavySleeper",
+      "name": "heavysleeper"
     },
     {
       "canAdd": true,
@@ -1966,25 +2124,25 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has exceptional reaction times, making them slightly faster than other droids of their model.",
-      "stats": [
-        "+0.40 move speed"
+      "description": "Timmy is naturally hygenic and organised. They will not track in dirt or throw trash anywhere, and feel happy while cleaning.",
+      "stats": [],
+      "conflicts": [
+        "slob"
       ],
-      "conflicts": [],
       "bypassLimit": false,
       "data": {
-        "conflicts": [],
-        "stats": [
-          "+0.40 move speed"
+        "conflicts": [
+          "slob"
         ],
+        "stats": [],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_Speedy",
-      "name": "speedy"
+      "defName": "VTE_Neat",
+      "name": "neat"
     },
     {
       "canAdd": true,
@@ -1992,7 +2150,143 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has learned to control their emotional programming to the extent usually only a restraint bolt provides, making them incapable of mental breaks.",
+      "description": "Timmy is naturally sloppy, leaving trash and dirt scattered around. At least he isn't much bothered by messy surroundings.",
+      "stats": [],
+      "conflicts": [
+        "neat"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "neat"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Slob",
+      "name": "slob"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy struggles to take breaks or rest mid-job. he will keep working, even at the expense of his health or sleep.",
+      "stats": [],
+      "conflicts": [
+        "absent-minded"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "absent-minded"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Workaholic",
+      "name": "workaholic"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has never known nausea. Food poisoning and vomiting are foreign to him.",
+      "stats": [],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "squeamish"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_IronStomach",
+      "name": "ironstomach"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy can't stand cruelty toward animals. he feels happier when nuzzled or acting as master to a tamed animal, but is more deeply upset when losing one. he also refuses to butcher animals.",
+      "stats": [],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "animalhater"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_AnimalLover",
+      "name": "animallover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy believes in human superiority over animals. he dislikes bonding or being nuzzled, but feels satisfaction when animals die or are sold.",
+      "stats": [],
+      "conflicts": [
+        "animallover",
+        "catperson",
+        "dogperson",
+        "menagerist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "animallover",
+          "catperson",
+          "dogperson",
+          "menagerist"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_AnimalHater",
+      "name": "animalhater"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Whether from bulk or awkward posture, Timmy has broken a few chairs in his time, and is likely to break more.",
       "stats": [],
       "conflicts": [],
       "bypassLimit": false,
@@ -2002,11 +2296,11 @@
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_SelfRestrained",
-      "name": "self-restrained"
+      "defName": "VTE_BigBoned",
+      "name": "big-boned"
     },
     {
       "canAdd": true,
@@ -2014,25 +2308,29 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy has a glitch that causes them to twitch involuntarily, for most tasks this isn't much of an issue, but if he uses a ranged weapon their accuracy will be lowered.",
+      "description": "Timmy only plays by his own rules. When forced, he will drag his feet and work more slowly.",
       "stats": [
-        "-5.0 shooting accuracy"
+        "x25% global certainty loss factor"
       ],
-      "conflicts": [],
+      "conflicts": [
+        "submissive"
+      ],
       "bypassLimit": false,
       "data": {
-        "conflicts": [],
+        "conflicts": [
+          "submissive"
+        ],
         "stats": [
-          "-5.0 shooting accuracy"
+          "x25% global certainty loss factor"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_Twitchy",
-      "name": "twitchy"
+      "defName": "VTE_Rebel",
+      "name": "rebel"
     },
     {
       "canAdd": true,
@@ -2040,25 +2338,1541 @@
       "addPrice": 3500,
       "removePrice": 5500,
       "degree": 0,
-      "description": "Timmy is particulalry chatty, if they are capable of social they'll be rather good at it, otherwise it's just more beeps and whirrs...",
+      "description": "Timmy needs clear direction on when and how to act. he works at normal speed only when ordered, and otherwise slows down.",
       "stats": [
-        "+15.00% social impact"
+        "x200% global certainty loss factor"
+      ],
+      "conflicts": [
+        "rebel"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "rebel"
+        ],
+        "stats": [
+          "x200% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Submissive",
+      "name": "submissive"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is fueled by spite. he can’t stand sharing the colony with rivals, and feels happier when one of them dies.",
+      "stats": [
+        "x25% global certainty loss factor"
+      ],
+      "conflicts": [
+        "kind"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "kind"
+        ],
+        "stats": [
+          "x25% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Vengeful",
+      "name": "vengeful"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Whether from trauma or fear of change, Timmy rejects modernity. he may lash out at machines, refuses to research, and feels satisfaction from destroying mechanoids.",
+      "stats": [
+        "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+      ],
+      "conflicts": [
+        "bodymodder"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "bodymodder"
+        ],
+        "stats": [
+          "Only mental break \"VTE_TechnophobeTantrum\" allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Technophobe",
+      "name": "technophobe"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy lives for a good time. he remembers parties fondly, and the joy lasts far longer than it does for most.",
+      "stats": [],
+      "conflicts": [
+        "anxious"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "anxious"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_FunLoving",
+      "name": "fun-loving"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has limited mental capacity. he learns slowly and struggles with conversation, but tends to be naturally happy.",
+      "stats": [
+        "-50% global learning factor",
+        "-50.00% social impact",
+        "x300% global certainty loss factor"
+      ],
+      "conflicts": [
+        "academian",
+        "eccentric",
+        "prodigy",
+        "tycoon",
+        "fastlearner",
+        "toosmart"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "academian",
+          "eccentric",
+          "prodigy",
+          "tycoon",
+          "fastlearner",
+          "toosmart"
+        ],
+        "stats": [
+          "-50% global learning factor",
+          "-50.00% social impact",
+          "x300% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Dunce",
+      "name": "dunce"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has trained in melee combat and learned a special move to disarm opponents.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_MartialArtist",
+      "name": "martialartist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy believes they belong in high society, and loves nothing more than critiquing art and brushing elbows with royalty.",
+      "stats": [],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "ascetic"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Snob",
+      "name": "snob"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy gets a sour stomach around blood or corpses. Vomiting is just part of life for him.",
+      "stats": [],
+      "conflicts": [
+        "desensitised",
+        "ironstomach",
+        "bloodlust"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "desensitised",
+          "ironstomach",
+          "bloodlust"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Squeamish",
+      "name": "squeamish"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is naturally anxious, especially in social situations. he avoids gatherings and sometimes retreats to his room to cope.",
+      "stats": [
+        "Only mental break \"VTE_PanicFreezing\" allowed.",
+        "x200% global certainty loss factor"
+      ],
+      "conflicts": [
+        "fun-loving"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "fun-loving"
+        ],
+        "stats": [
+          "Only mental break \"VTE_PanicFreezing\" allowed.",
+          "x200% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Anxious",
+      "name": "anxious"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "No amount of lovin’ is ever enough for Timmy. he tends to move between partners and seeks intimacy often.",
+      "stats": [
+        "x200% global certainty loss factor"
+      ],
+      "conflicts": [
+        "prude",
+        "asexual"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "prude",
+          "asexual"
+        ],
+        "stats": [
+          "x200% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Insatiable",
+      "name": "insatiable"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy gives his body only to a spouse and would never initiate divorce. he also dislikes nudity more than most.",
+      "stats": [
+        "x50% global certainty loss factor"
+      ],
+      "conflicts": [
+        "insatiable",
+        "nudist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "insatiable",
+          "nudist"
+        ],
+        "stats": [
+          "x50% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Prude",
+      "name": "prude"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "An armchair and a screen are all Timmy needs to be happy. he never tires of watching television, and always feels good after.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_CouchPotato",
+      "name": "couchpotato"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy enjoys the company of cats and gravitates toward bonding with them, but dislikes dogs.",
+      "stats": [],
+      "conflicts": [
+        "dogperson"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "dogperson"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_CatPerson",
+      "name": "catperson"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy enjoys the company of dogs and gravitates toward bonding with them, but dislikes cats.",
+      "stats": [],
+      "conflicts": [
+        "catperson"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "catperson"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_DogPerson",
+      "name": "dogperson"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a sharp, logical mind. he researches faster than most, and his rational outlook makes him less prone to mental breaks.",
+      "stats": [
+        "+20% mental break threshold",
+        "x130% research speed"
+      ],
+      "conflicts": [
+        "slowlearner"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "slowlearner"
+        ],
+        "stats": [
+          "+20% mental break threshold",
+          "x130% research speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Prodigy",
+      "name": "prodigy"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy believes animals are essential to life and society. he feels happier with more of them around, and is especially skilled at taming and training.",
+      "stats": [
+        "x120% tame animal chance",
+        "x120% train animal chance"
+      ],
+      "conflicts": [
+        "animalhater"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "animalhater"
+        ],
+        "stats": [
+          "x120% tame animal chance",
+          "x120% train animal chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Menagerist",
+      "name": "menagerist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "The sea calls to Timmy. he feels happier when near the ocean or a deep river.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_ChildOfSea",
+      "name": "oceanlover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "The mountains call to Timmy. he feels happier when near a large mountain.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_ChildOfMountain",
+      "name": "mountainlover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy hides a twisted obsession. he treats organ harvesting as a dark experiment and takes pleasure in it. Harvesting makes him happy, but going too long without fuels growing unrest.",
+      "stats": [
+        "+20% surgery success chance factor"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "+15.00% social impact"
+          "+20% surgery success chance factor"
         ],
         "canBypassLimit": false,
         "customName": false,
         "karmaTypeForRemoving": null,
-        "mod": "Outer Rim - Droid Depot",
+        "mod": "Vanilla Traits Expanded",
         "karmaTypeForAdding": null
       },
-      "defName": "OuterRim_Twitterer",
-      "name": "twitterer"
+      "defName": "VTE_MadSurgeon",
+      "name": "madsurgeon"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy fights best when drunk. he grows more dangerous in melee the more intoxicated he becomes.",
+      "stats": [
+        "+4 melee"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 melee"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_DrunkenMaster",
+      "name": "drunkenmaster"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is compelled to steal, even from guests and allies, risking angering others.",
+      "stats": [
+        "Only mental break \"VTE_Kleptomaniac\" allowed."
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "Only mental break \"VTE_Kleptomaniac\" allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Kleptomaniac",
+      "name": "kleptomaniac"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Smokeleaf is a way of life for Timmy. he adores it and would rather die than give it up.",
+      "stats": [],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Stoner",
+      "name": "stoner"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Alcohol is a way of life for Timmy. he adores drinking and would rather die than give it up.",
+      "stats": [],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Lush",
+      "name": "lush"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy loves to travel and feels happiest on the move. he grows restless when staying too long in one place, but moves quickly and forages well while caravanning.",
+      "stats": [
+        "+0.2 foraged food amount"
+      ],
+      "conflicts": [
+        "undergrounder"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "undergrounder"
+        ],
+        "stats": [
+          "+0.2 foraged food amount"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Wanderlust",
+      "name": "wanderlust"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is never fully asleep or awake. he lurches along in a slow, shambler-like state, and only sleeps once every few days.",
+      "stats": [
+        "x50% global work speed",
+        "x70% move speed",
+        "x50% global certainty loss factor"
+      ],
+      "conflicts": [
+        "heavysleeper"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "heavysleeper"
+        ],
+        "stats": [
+          "x50% global work speed",
+          "x70% move speed",
+          "x50% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Insomniac",
+      "name": "insomniac"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has grown tired of the world. he struggles with bleak thoughts, making his personality difficult to befriend.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_WorldWeary",
+      "name": "worldweary"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is hardened by old emotional trauma. he feels nothing from death or loss, whether animal, colonist, family, or prisoner.",
+      "stats": [
+        "x50% global certainty loss factor"
+      ],
+      "conflicts": [
+        "squeamish"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "squeamish"
+        ],
+        "stats": [
+          "x50% global certainty loss factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Desensitized",
+      "name": "desensitised"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Only the finest meals satisfy Timmy. he feels indifferent toward ordinary food, but savors lavish meals and gains greater joy from them.",
+      "stats": [
+        "x70% eating speed"
+      ],
+      "conflicts": [
+        "ascetic"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "ascetic"
+        ],
+        "stats": [
+          "x70% eating speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_RefinedPalate",
+      "name": "refinedpalate"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Through scholastic pursuit, Timmy has become well-read. he excels in science and medicine, and tends patients with greater skill.",
+      "stats": [
+        "+4 intellectual",
+        "+4 medical",
+        "+20% medical tend quality"
+      ],
+      "conflicts": [
+        "slowlearner"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "slowlearner"
+        ],
+        "stats": [
+          "+4 intellectual",
+          "+4 medical",
+          "+20% medical tend quality"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Academian",
+      "name": "academian"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy believes infrastructure is everything. he is a natural builder and stoneworker, constructing and mining with greater speed and efficiency.",
+      "stats": [
+        "+4 mining",
+        "+4 construction",
+        "+20% mining yield",
+        "+20% construction speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 mining",
+          "+4 construction",
+          "+20% mining yield",
+          "+20% construction speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Groundbreaker",
+      "name": "groundbreaker"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "To Timmy, food is art. he creates beautiful, delicious meals that are almost always safe to eat.",
+      "stats": [
+        "+4 cooking",
+        "+4 artistic",
+        "-25.00% food poison chance"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 cooking",
+          "+4 artistic",
+          "-25.00% food poison chance"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Gastronomist",
+      "name": "gastronomist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Flora and fauna are vital to Timmy. he uses every part of plants and animals, and appreciates nature’s gifts.",
+      "stats": [
+        "+4 animals",
+        "+4 plants",
+        "+20% plant harvest yield",
+        "+20% butchery efficiency"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 animals",
+          "+4 plants",
+          "+20% plant harvest yield",
+          "+20% butchery efficiency"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Ecologist",
+      "name": "ecologist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has an eye for silver and a silver tongue to match. he values his own goods highly, and convinces others to do the same.",
+      "stats": [
+        "+4 social",
+        "+4 crafting",
+        "+25.00% trade price improvement"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+4 social",
+          "+4 crafting",
+          "+25.00% trade price improvement"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Tycoon",
+      "name": "tycoon"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is strangely hypercoagulating and will bleed much more slowly than most.",
+      "stats": [],
+      "conflicts": [
+        "thinskinned"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "thinskinned"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_ThickSkinned",
+      "name": "thickskinned"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is strangely hemophilic and tends to bleed much more profusely than others.",
+      "stats": [],
+      "conflicts": [
+        "thickskinned"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "thickskinned"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_ThinSkinned",
+      "name": "thinskinned"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy bottles up his feelings for long stretches of time. When the pressure grows too great, he may suddenly break down.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Vanilla Traits Expanded",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VTE_Schizoid",
+      "name": "schizoid"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has outstanding memory, both in terms of retaining information but also muscle memory. his skills will never decay.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "PerfectMemory",
+      "name": "perfectmemory"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has deep knowledge of the twisted patterns of dark psychic energy. he can study unnatural entities faster than others. he will also periodically teach this inhuman knowledge to others when he gets the chance.",
+      "stats": [
+        "+100% study efficiency",
+        "+50% entity study rate"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+100% study efficiency",
+          "+50% entity study rate"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Occultist",
+      "name": "occultist"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has the ability to make everyone feel better and inspire them to be the best version of themselves.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Joyous",
+      "name": "joyous"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy doesn't have basic needs like eating, sleeping, or comfort. his body is driven by some unknown mechanism, which has turned his eyes completely white.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BodyMastery",
+      "name": "bodymastery"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is a peculiar person who seems fixated on horrendous ideas. Talking to him is often upsetting.",
+      "stats": [
+        "Morbid meditation focus type allowed."
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "Morbid meditation focus type allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Disturbing",
+      "name": "disturbing"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is strangely intrigued by unnatural entities and is easily enthralled by them.",
+      "stats": [
+        "Artistic meditation focus type disabled.",
+        "Void meditation focus type allowed.",
+        "Only mental break \"entity liberator\" allowed."
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "Artistic meditation focus type disabled.",
+          "Void meditation focus type allowed.",
+          "Only mental break \"entity liberator\" allowed."
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Anomaly",
+        "karmaTypeForAdding": null
+      },
+      "defName": "VoidFascination",
+      "name": "voidfascination"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is able to use oversized weapons.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Framework",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_Giant",
+      "name": "giant"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy learns faster in skills they lack passion in.\n\n(This increase to no-passion learning will not show in the skill UI)",
+      "stats": [
+        "+0.35 skill learning (no passion)",
+        "+15% global learning factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.35 skill learning (no passion)",
+          "+15% global learning factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Passioned_Learning",
+      "name": "diligentstudent"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy learns much faster in skills they lack passion in.\n\n(This increase to no-passion learning will not show in the skill UI)",
+      "stats": [
+        "+0.65 skill learning (no passion)",
+        "+30% global learning factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "+0.65 skill learning (no passion)",
+          "+30% global learning factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Very_Passioned_Learning",
+      "name": "verydiligentstudent"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "There is something about Timmy that makes predators not consider them prey",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_AnimalFriend",
+      "name": "animalfriend"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy loves alcohol. he will never stop being addicted to it.",
+      "stats": [
+        "+10% mental break threshold",
+        "x150% recreation power"
+      ],
+      "conflicts": [
+        "chemicalfascination",
+        "chemicalinterest",
+        "teetotaler",
+        "lush"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "chemicalfascination",
+          "chemicalinterest",
+          "teetotaler",
+          "lush"
+        ],
+        "stats": [
+          "+10% mental break threshold",
+          "x150% recreation power"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_AlcoholAddict",
+      "name": "alcohollover"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy has a gentle and cool-headed nature. he is less likely to insult others or starts fights, and will sometimes cheer up others.",
+      "stats": [
+        "-20% mental break threshold"
+      ],
+      "conflicts": [
+        "abrasive",
+        "kind",
+        "psychopath"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "abrasive",
+          "kind",
+          "psychopath"
+        ],
+        "stats": [
+          "-20% mental break threshold"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_Gentle",
+      "name": "gentle"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy doesn't react to insults or to either part failing a flirt attempt.",
+      "stats": [],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_InsultProof",
+      "name": "uninsultable"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy isn't bothered by rough appearances, a bit of rough living. Timmy also doesn't care as much for royal titles.",
+      "stats": [],
+      "conflicts": [
+        "greedy",
+        "jealous",
+        "bodypurist",
+        "misandrist",
+        "misogynist"
+      ],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [
+          "greedy",
+          "jealous",
+          "bodypurist",
+          "misandrist",
+          "misogynist"
+        ],
+        "stats": [],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "BS_Unpretentious",
+      "name": "unpretentious"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is truly gigantic by the standards of their kind. They are sturdier than usual, but being significantly larger than normal for their kind does slow them down somewhat and make them more prone to early heart attacks and other health-issues.",
+      "stats": [
+        "x130% body size multipler",
+        "x110% construction speed",
+        "x90% move speed",
+        "x80% lifespan factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x130% body size multipler",
+          "x110% construction speed",
+          "x90% move speed",
+          "x80% lifespan factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Gigantism",
+      "name": "gigantism"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is both taller and bulkier than usual for their kind. This makes them sturdier but slightly slower.",
+      "stats": [
+        "x115% body size multipler",
+        "x105% construction speed",
+        "x98% move speed",
+        "x95% lifespan factor"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x115% body size multipler",
+          "x105% construction speed",
+          "x98% move speed",
+          "x95% lifespan factor"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Large",
+      "name": "large"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is a bit smaller than usual for their kind.",
+      "stats": [
+        "x80% body size multipler",
+        "x95% mining speed",
+        "x95% construction speed",
+        "x95% deep drilling speed",
+        "x93% move speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x80% body size multipler",
+          "x95% mining speed",
+          "x95% construction speed",
+          "x95% deep drilling speed",
+          "x93% move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Small",
+      "name": "small"
+    },
+    {
+      "canAdd": true,
+      "canRemove": true,
+      "addPrice": 3500,
+      "removePrice": 5500,
+      "degree": 0,
+      "description": "Timmy is much smaller than usual for their kind.",
+      "stats": [
+        "x60% body size multipler",
+        "x75% mining speed",
+        "x75% construction speed",
+        "x75% deep drilling speed",
+        "x85% move speed"
+      ],
+      "conflicts": [],
+      "bypassLimit": false,
+      "data": {
+        "conflicts": [],
+        "stats": [
+          "x60% body size multipler",
+          "x75% mining speed",
+          "x75% construction speed",
+          "x75% deep drilling speed",
+          "x85% move speed"
+        ],
+        "canBypassLimit": false,
+        "customName": false,
+        "karmaTypeForRemoving": null,
+        "mod": "Big and Small - Genes & More",
+        "karmaTypeForAdding": null
+      },
+      "defName": "Dwarfism",
+      "name": "dwarfism"
     }
   ],
   "races": [
@@ -2070,14 +3884,15 @@
           "+70% Flammability",
           "+$1750 Market value",
           "+4.60 Move speed",
-          "+16.0C Min comfortable temperature",
-          "+26.0C Max comfortable temperature",
+          "+16.0C [28.8F] Min comfortable temperature",
+          "+26.0C [46.8F] Max comfortable temperature",
           "+75 Leather amount",
           "+3 Honor value",
           "+75% Wildness"
         ],
         "mod": "Unknown",
-        "karmaType": null
+        "karmaType": null,
+        "allowedXenotypes": []
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
@@ -2090,309 +3905,58 @@
         "customName": false,
         "stats": [
           "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1500 Market value",
-          "+4.80 Move speed",
-          "+100% Suppression power"
+          "+70% Flammability",
+          "+$1750 Market value",
+          "+4.60 Move speed",
+          "+16.0C [28.8F] Min comfortable temperature",
+          "+26.0C [46.8F] Max comfortable temperature",
+          "+75 Leather amount",
+          "+3 Honor value",
+          "+75% Wildness"
         ],
         "mod": "Unknown",
-        "karmaType": null
+        "karmaType": null,
+        "allowedXenotypes": []
       },
-      "description": "A strong security droid built for use by the Galactic Empire, originally intended to be deployed as a new form of battle droid, the backlash from the public against droids used for war after the Clone Wars led to them instead being used as security in Imperial bases.",
-      "defName": "OuterRim_KXSecurityDroid",
+      "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
+      "defName": "CreepJoiner",
       "enabled": true,
-      "name": "KX Security Droid",
-      "price": 2500
+      "name": "human",
+      "price": 2917
     },
     {
       "data": {
         "customName": false,
         "stats": [
           "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
+          "+0% Flammability",
+          "+$2500 Market value",
+          "+4.60 Move speed",
+          "+10.0C [18.0F] Min comfortable temperature",
+          "+40.0C [72.0F] Max comfortable temperature",
           "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
+          "+3 Honor value",
+          "+75% Wildness",
+          "+75% Psychic sensitivity",
           "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1500 Market value",
-          "+4.80 Move speed"
+          "+0% Fertility",
+          "+0.5 Flirt chance",
+          "+120% Global learning factor",
+          "+0 Meat amount",
+          "+1.58 Max nutrition",
+          "+80 Carrying capacity",
+          "+100.00 kg Mass carry capacity",
+          "+200% Vacuum resistance"
         ],
         "mod": "Unknown",
-        "karmaType": null
+        "karmaType": null,
+        "allowedXenotypes": []
       },
-      "description": "A standard model of battle droid used widely as a baseline military model. They are cheap and easy to produce compared to other models so they are often also used as a labour force outside of combat.",
-      "defName": "OuterRim_BattleDroid",
+      "description": "This is a creature largely composed of highly ruggedized machinery.",
+      "defName": "BS_UrbMech",
       "enabled": true,
-      "name": "B1 Battle Droid",
-      "price": 2500
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1800 Market value",
-          "+4.20 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A heavy modification of the standard b1 battle droid designed to be capable of handling some basic tasks, allowing it to fulfil the role of both servant and bodyguard to officials in the Separatist Alliance. This came at a much greater manufacturing cost, making them fairly limited in usage.",
-      "defName": "OuterRim_BattleDroidAdvanced",
-      "enabled": true,
-      "name": "B1A Battle Droid",
-      "price": 3000
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$2000 Market value",
-          "+5.40 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A stealthy model of battle droid capable of much more flexible movement, even imitating humanoids to a degree along with a high melee proficiency which the standard models lack almost entirely. They are much more difficult to produce.",
-      "defName": "OuterRim_CommandoDroid",
-      "enabled": true,
-      "name": "BX Commando Droid",
-      "price": 3333
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$2000 Market value",
-          "+5.00 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "HK-47 was a Hunter-Killer assassin droid and Jedi hunter constructed by the Dark Lord of the Sith, Darth Revan, shortly after the end of the Mandalorian Wars in 3960 BBY. In the wake of widespread destruction caused by the Mass Shadow Generator, a superweapon used during the final battle of that conflict, Revan was inspired to seek more subtle methods of defeating his enemies. HK-47 was sent throughout the galaxy on his missions and successfully assassinated countless targets whom Revan had deemed threats to galactic stability and peace. However, HK-47 was badly crippled and captured on a mission in Mandalorian space shortly before Revan himself was captured by the Jedi Order.",
-      "defName": "OuterRim_HKDroid",
-      "enabled": true,
-      "name": "HK-Series Assassin Droid",
-      "price": 3333
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1800 Market value",
-          "+4.20 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A general use labor droid used by the Galactic Empire during the Imperial Era. They could function in many rudimentary roles.",
-      "defName": "OuterRim_ImperialLaborDroid",
-      "enabled": true,
-      "name": "Imperial Labor Droid",
-      "price": 3000
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1000 Market value",
-          "+5.40 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "An advanced assassin and bodyguard droid model, proficient in melee combat but not so much with ranged.",
-      "defName": "OuterRim_MagnaGuardDroid",
-      "enabled": true,
-      "name": "MagnaGuard Droid",
-      "price": 1667
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1500 Market value",
-          "+4.80 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A standard model of battle droid used widely as a baseline military model. They are cheap and easy to produce compared to other models so they are often also used as a labour force outside of combat.",
-      "defName": "OuterRim_ProtocolDroid",
-      "enabled": true,
-      "name": "protocol droid",
-      "price": 2500
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$2000 Market value",
-          "+4.00 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "An advanced battle droid model that is larger, tougher and generally better than the standard Battle Droid. Their advantages come at the cost of significantly more materials.",
-      "defName": "OuterRim_SuperBattleDroid",
-      "enabled": true,
-      "name": "B2 Super Battle Droid",
-      "price": 3333
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1000 Market value",
-          "+4.60 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A superior model of tactical droid, capable of much more complex calculations than the standard series.",
-      "defName": "OuterRim_SuperTacticalDroid",
-      "enabled": true,
-      "name": "Super Tactical Droid",
-      "price": 1667
-    },
-    {
-      "data": {
-        "customName": false,
-        "stats": [
-          "+60.00 Mass",
-          "+10% Flammability",
-          "-250.0C Min comfortable temperature",
-          "+250.0C Max comfortable temperature",
-          "+0 Leather amount",
-          "+0 Meat amount",
-          "+0% Psychic sensitivity",
-          "+100% Toxic environment resistance",
-          "+100% Toxic resistance",
-          "+10000% Immunity gain speed",
-          "+1000% Pain shock threshold",
-          "+100% Vacuum resistance",
-          "+$1500 Market value",
-          "+4.60 Move speed"
-        ],
-        "mod": "Unknown",
-        "karmaType": null
-      },
-      "description": "A droid capable of quick battlefield decisions, they aren't very useful for anything else but their intelligence is highly valued.",
-      "defName": "OuterRim_TacticalDroid",
-      "enabled": true,
-      "name": "T-Series Tactical Droid",
-      "price": 2500
+      "name": "mech",
+      "price": 4167
     }
   ]
 }
