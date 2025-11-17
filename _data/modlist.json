@@ -9,7 +9,7 @@
     "author": "RedMattis",
     "name": "Big and Small - Framework",
     "steamId": "2925432336",
-    "version": "1.0.0+61c417253191d92844c5e336cb786bc938a85cc9"
+    "version": "1.0.0+75418944674bcad768ef8d1947da617a6c36aee9"
   },
   {
     "author": "UnlimitedHugs",
@@ -70,6 +70,12 @@
     "name": "Alpha Prefabs",
     "steamId": "3070780021",
     "version": "1.0.0.0"
+  },
+  {
+    "author": "Amnabi",
+    "name": "Amnabi's Flags (Continued)",
+    "steamId": "2592638428",
+    "version": "1.6.0"
   },
   {
     "author": "Broms",
@@ -133,9 +139,27 @@
   },
   {
     "author": "Dubwise",
+    "name": "Dubs Mint Menus",
+    "steamId": "1446523594",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Dubwise",
     "name": "Dubs Mint Minimap",
     "steamId": "1662119905",
     "version": "1.2.7365"
+  },
+  {
+    "author": "StatistNo1",
+    "name": "EnchantQualityPlus",
+    "steamId": "3531518926",
+    "version": "1.0.0"
+  },
+  {
+    "author": "Slime-Senpai",
+    "name": "EndlessGrowth",
+    "steamId": "2894401734",
+    "version": "1.5.2.0+61694815f123034bf8a029db2bbc8e693a4d9214"
   },
   {
     "author": "Erin",
@@ -146,6 +170,12 @@
   {
     "author": "Kosaro",
     "name": "Fahrenheit and Celsius",
+    "steamId": null,
+    "version": null
+  },
+  {
+    "author": "kongkim",
+    "name": "Farmable Neutroamine",
     "steamId": null,
     "version": null
   },
@@ -252,6 +282,12 @@
     "version": null
   },
   {
+    "author": "Espio Idsavant",
+    "name": "Monument Highlight",
+    "steamId": null,
+    "version": null
+  },
+  {
     "author": "Zaljerem",
     "name": "Music Manager (Continued)",
     "steamId": "3220120457",
@@ -327,7 +363,7 @@
     "author": "Uuugggg",
     "name": "Replace Stuff - Continued",
     "steamId": "3526354009",
-    "version": "1.0.0+dfcf49c304d1d32dea51a3eb2e3b9799ab31c030"
+    "version": "1.0.0+f60155fb0ecde1e0c69ee15888d7e9504c54d53c"
   },
   {
     "author": "aRandomKiwi",
@@ -435,7 +471,7 @@
     "author": "Mlie",
     "name": "Use This Instead",
     "steamId": "3396308787",
-    "version": "1.6.125"
+    "version": "1.6.138"
   },
   {
     "author": "Jaxe",
@@ -502,6 +538,12 @@
     "name": "Vanilla Textures Expanded - Variations",
     "steamId": null,
     "version": null
+  },
+  {
+    "author": "Oskar Potocki and Taranchuk",
+    "name": "Vanilla Trading Expanded",
+    "steamId": "2785616901",
+    "version": "1.0.0.0"
   },
   {
     "author": "Oskar Potocki, Taranchuk and Chowder",
@@ -636,10 +678,22 @@
     "version": "1.6.9373.22245"
   },
   {
+    "author": "Little White Mouse",
+    "name": "LWM's Deep Storage",
+    "steamId": "3532608331",
+    "version": "1.5.0.4"
+  },
+  {
     "author": "Mehni",
     "name": "Pick Up And Haul",
     "steamId": "1279012058",
     "version": "1.0.0+ff1022e1ba7c5c17256a00124f95be16bdc69799"
+  },
+  {
+    "author": "Dubwise",
+    "name": "Rimefeller",
+    "steamId": "1321849735",
+    "version": "1.2.7364"
   },
   {
     "author": "Weilbyte",
